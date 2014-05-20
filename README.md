@@ -16,14 +16,14 @@ Easily set up and develop on a LAMP Stack using Docker.
 
 ### Build
 
-Create the *robloach/lamp* image:
+Create the `robloach/lamp` image:
 ```
 docker build -t robloach/lamp .
 ```
 
 ### Run
 
-Run the image, binding associated ports, and mounting the *www* directory:
+Run the image, binding associated ports, and mounting the `www` directory:
 ```
 docker run -d -p 880:80 -p 222:22 -p 33306:3306 -v $(pwd)/www:/var/www/html:rw robloach/lamp
 ```
