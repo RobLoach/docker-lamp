@@ -10,6 +10,7 @@ A Docker solution to easily set up and develop on a LAMP stack.
 * [MySQL](http://www.mysql.com/) 5.5.37
 * [phpMyAdmin](http://www.phpmyadmin.net/) 4.0.10
 * [OpenSSH](http://www.openssh.com/) 6.6
+* [Composer](http://getcomposer.org) 1.0.0-alpha8
 
 
 ## Usage
@@ -39,3 +40,7 @@ Visit `http://localhost:880/phpinfo.php` in your browser.
 #### phpMyAdmin
 
 Visit `http://localhost:880/phpmyadmin` in your browser.
+
+#### MySQL
+
+Connect on localhost:3306, user `root`, password `root`.
