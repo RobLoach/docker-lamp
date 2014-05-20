@@ -1,6 +1,6 @@
 # Docker LAMP Developer
 
-A Docker solution to easily set up and develop on a LAMP stack.
+Easily set up and develop on a LAMP Stack using Docker.
 
 
 ## Features
@@ -17,16 +17,16 @@ A Docker solution to easily set up and develop on a LAMP stack.
 
 ### Build
 
-Create the image `robloach/lamp`:
+Create the `robloach/lamp` image:
 ```
 docker build -t robloach/lamp .
 ```
 
 ### Run
 
-Run the image, binding Apache's port 80 to your container:
+Run the image, binding associated ports, and mounting the `www` directory:
 ```
-docker run -d -p 880:80 -p 222:22 33306:3306 -v $(pwd)/www:/var/www/html:rw robloach/lamp
+docker run -d -p 880:80 -p 222:22 -p 33306:3306 -v $(pwd)/www:/var/www/html:rw robloach/lamp
 ```
 
 #### Apache
