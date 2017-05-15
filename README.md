@@ -1,3 +1,5 @@
+# Deprecated: Use [Docker4Drupal](https://github.com/Wodby/docker4drupal) instead.
+
 # Docker LAMP Developer
 
 Easily set up and develop on a LAMP Stack using Docker.
